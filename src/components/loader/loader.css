@@ -1,0 +1,39 @@
+.loader_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  background-color: "var(--colorWhite)";
+}
+
+.fade_out {
+  animation: 1s fadeout infinite;
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade_in {
+  animation: 1s fadein infinite;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
