@@ -1,0 +1,12 @@
+.starBucksHeaderContainer {
+  width: 100%;
+  height: 50px;
+  background-color: var(--colorHouseGreen);
+  color: var(--colorWhite);
+}
+.starBucksHeaderWrapper {
+  padding: 10px 0px 10px 41px;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: system-ui;
+}

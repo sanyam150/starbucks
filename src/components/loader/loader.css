@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   z-index: 10;
-  background-color: "var(--colorWhite)";
+  background-color: var(--colorWhite);
 }
 
 .fade_out {
