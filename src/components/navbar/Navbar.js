@@ -55,13 +55,13 @@ const Navbar = () => {
           <div className="user_options_navbar">
             <ActionButton
               buttonColor={colors.colorBlack}
-              buttonText={"join now"}
+              buttonText={"Join now"}
             />
           </div>
           <div className="user_options_navbar">
             <ActionButton
               buttonColor={colors.colorBlack}
-              buttonText={"sign up"}
+              buttonText={"Sign in"}
             />
           </div>
         </div>
