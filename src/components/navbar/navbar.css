@@ -1,0 +1,73 @@
+.navbar_container {
+  padding: 15px;
+}
+
+@media screen and (max-width: 840px) {
+  .navbar_container {
+    display: none;
+  }
+}
+
+.navbar_container_wrapper {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+#navbar_logo_list_wrapper {
+  display: flex;
+}
+
+#navbar_logo_container {
+  margin-right: 10px;
+}
+
+#navbar_list_container {
+  margin-left: 10px;
+}
+
+#starbucks_logo {
+  width: 70px;
+  height: 100%;
+}
+
+#list_style {
+  list-style: none;
+  display: flex;
+}
+
+.list_style_items {
+  padding: 10px;
+  font-family: monospace;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.list_style_items:hover {
+  cursor: pointer;
+  color: var(--colorGreenAccent);
+}
+
+#navbar_useroptions_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#location_container {
+  display: flex;
+  cursor: pointer;
+}
+
+#location_container:hover {
+  color: var(--colorGreenAccent);
+}
+
+.user_options_navbar #action_button_container :hover {
+  background-color: var(--colorGreenAccent) !important;
+  cursor: pointer;
+}
+
+.user_options_navbar {
+  margin: 0 10px 0 10px;
+}
