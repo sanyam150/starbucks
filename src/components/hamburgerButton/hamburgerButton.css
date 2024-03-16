@@ -1,0 +1,37 @@
+.hamburger_button_container {
+  width: 25px;
+  height: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 10px 0px 10px;
+  cursor: pointer;
+}
+
+.line {
+  width: 100%;
+  display: block;
+  height: 4px;
+  background: black;
+  transition: transform 0.1s ease-in-out;
+}
+
+.openNavbarTranslateUp {
+  transform: translateY(8px);
+}
+.openNavbarDisplayNone {
+  display: none;
+}
+
+.openNavbarTranslateYDown {
+  transform: translateY(-8px);
+}
+
+.openNavbarRotationclockWise {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.openNavbarRotationAnticlockWise {
+  transform: translateY(-7.8px) rotate(-45deg);
+}

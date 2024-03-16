@@ -63,7 +63,7 @@
   color: var(--colorGreenAccent);
 }
 
-.user_options_navbar #action_button_container :hover {
+.user_options_navbar .action_button_container :hover {
   background-color: var(--colorGreenAccent) !important;
   cursor: pointer;
 }

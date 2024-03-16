@@ -10,7 +10,7 @@ const ActionButton = ({
   buttonFontFamily,
 }) => {
   return (
-    <div id="action_button_container">
+    <div className="action_button_container">
       <button
         style={{
           backgroundColor: buttonColor,
