@@ -4,6 +4,7 @@ import "./compactNavbar.css";
 import ActionButton from "../actionButton/ActionButton";
 import { colors } from "../../globalStyle";
 import HamburgerButton from "../../components/hamburgerButton/HamburgerButton";
+import { setBodyOverflow } from "../../utils/pageUtils";
 
 const CompactNavbar = () => {
   const [isNavbarExpanded, setIsNavbarExpanded] = useState(false);
@@ -19,7 +20,14 @@ const CompactNavbar = () => {
       sideMenuContainer.classList.toggle("sideNavbarAnimation");
       navbar_cover.classList.toggle("navbar_cover_shadowEffect");
     }
+    if(isNavbarExpanded){
+      setBodyOverflow(true);
+    }
+    return ()=>{
+      setBodyOverflow(false)
+    }
   }, [isNavbarExpanded]);
+
 
   const navbarList = ["Menu", "Rewards", "Gift Cards"];
   return (
