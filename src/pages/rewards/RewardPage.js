@@ -10,7 +10,7 @@ import Loader from '../../components/loader/Loader'
 import StarBucksHeader from '../../components/starBucksHeader/StarBucksHeader'
 import './RewardPage.css'
 import ActionButton from '../../components/actionButton/ActionButton'
-
+import { LoadingIndicator } from '../../components/loadingIndicator/LoadingIndicator'
 
 const RewardPage = () => {
   const dispatch = useDispatch()
@@ -28,7 +28,10 @@ const RewardPage = () => {
         <CompactNavbar />
         {isLoading
           ? (
+            <>
           <Loader />
+          <LoadingIndicator/>
+          </>
             )
           : (
           <div className='reward_page_container'>

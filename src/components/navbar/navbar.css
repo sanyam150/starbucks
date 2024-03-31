@@ -1,5 +1,5 @@
 .navbar_container {
-  padding: 15px;
+  padding: 15px 15px 0px 15px;
 }
 
 @media screen and (max-width: 840px) {
@@ -23,7 +23,7 @@
 }
 
 #navbar_list_container {
-  margin-left: 10px;
+  margin-left: 40px;
 }
 
 #starbucks_logo {
@@ -34,13 +34,16 @@
 #list_style {
   list-style: none;
   display: flex;
+  padding: 0;
 }
 
 .list_style_items {
   padding: 10px;
   font-family: monospace;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
+  width: 60px;
+  text-align: center;
 }
 
 .list_style_items:hover {
@@ -70,4 +73,17 @@
 
 .user_options_navbar {
   margin: 0 10px 0 10px;
+}
+
+.underLine_text_container {
+  height: 8px;
+}
+
+#underLine_text_bar {
+  position: relative;
+  height: 100%;
+  width: 30%;
+  background-color: var(--colorGreenAccent);
+  transition: transform 0.2s ease-in-out;
+  left: 1%;
 }
